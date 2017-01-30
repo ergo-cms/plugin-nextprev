@@ -2,6 +2,15 @@
 
 This plugin provides access to previous and next pages of a particular type. Most commonly, this would be use to generate Next and Prev buttons for a user to navigate.
 
+## Installation
+
+In an existing ergo project folder:
+
+```
+ergo plugin install nextprev
+```
+
+
 ## Usage Sample
 
 All of the themes provided by ergo-cms support this plugin automatically in the `post.html` layout. The basic format to build such support is:
