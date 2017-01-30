@@ -45,14 +45,14 @@ module.exports = {
 		has_nextprev: true, // a simple signal to themes that we're available
 		next: function() { return _find(this, 1); },
 		prev: function() { return _find(this, -1); },
-		isFirst: function() { 
+		/*isFirst: function() { // this can interfere when iterating a section. Usematch also defines 'isFirst' & 'isLast'
 			var p = _find(this, 0); 
 			return !!p ? p.isFirst : false;
 		},
 		isLast: function() { 
 			var p = _find(this, 0); 
 			return !!p ? p.isLast : false;
-		},
+		},*/
 	}
 }
 
