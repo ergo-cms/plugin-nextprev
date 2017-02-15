@@ -40,6 +40,7 @@ module.exports = {
 	name: "Ergo Next/Prev Plugin",
 	url: "https://github.com/ergo-cms/plugin-nextprev",
 	active: true,
+	version: "1.0.0",
 
 	default_fields: {
 		has_nextprev: true, // a simple signal to themes that we're available
